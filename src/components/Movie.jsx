@@ -1,13 +1,12 @@
 import React from 'react'
-import './styles/App.css'
-import movies from './data/movies.json'
 
-const Movie = () => {
+const Movie = (props) => {
   return (
-    <div>
-
+    <div className='movieList'>
+      {props.children}
+  
     </div>
-  )
+    )
 }
 
 export default Movie

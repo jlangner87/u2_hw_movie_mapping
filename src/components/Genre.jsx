@@ -1,10 +1,8 @@
 import React from 'react'
-import './styles/App.css'
-import movies from './data/movies.json'
 
 
 
-const Genre = () => {
+const Genre = (props) => {
   return (
   <div className='genreList'>
     {props.children}
