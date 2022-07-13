@@ -3,12 +3,15 @@ import './styles/App.css'
 import movies from './data/movies.json'
 import Genre from './components/Genre'
 import MovieItem from './components/MovieItem'
+;<style>
+  @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+</style>
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Movie List</h1>
-      <ul>
+      <h1 className="heading">Movie List</h1>
+      <ul className="Movies">
         {movies.map((film) => (
           <MovieItem
             key={film.adult}

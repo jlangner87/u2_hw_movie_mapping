@@ -1,7 +1,18 @@
+* {
+  margin: 0 auto;
+}
+
 .App {
   text-align: center;
   color: aliceblue;
   background-color: #282c34;
+}
+.heading {
+  text-align: center;
+  font-size: 60px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  font-family: 'Play', sans-serif;
 }
 
 .App-logo {
@@ -22,6 +33,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -40,7 +52,22 @@
 }
 
 
-p {
-  display: inline;
-  font-size: 12px;
+.color-code {
+  border: 2px solid black;
+  height: 40px;
+
+}
+
+img {
+  border: 8px solid black;
+  border-radius: 5%;
+  margin: 14px 0 14px 0;
+}
+
+.last {
+  margin-bottom: 60px;
+}
+
+.title-cover {
+  font-size: 48px;
 }

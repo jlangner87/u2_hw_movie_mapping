@@ -53,8 +53,8 @@ switch(props.name) {
     break
   }
   return (
-    <div className='color-code'>
-      <p style={{backgroundColor: colorCoding, color: '#000000' }}>{props.name}</p>
+    <div>
+      <div className='color-code' style={{backgroundColor: colorCoding, color: '#000000' }}>{props.name}</div>
     </div>
   )
 }
